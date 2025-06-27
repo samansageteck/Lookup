@@ -1,21 +1,10 @@
-Thu Jun 26 09:12:20 2025 [14148][1][SECURITY] OutboundEmail::checkSavePermissions - not logged in - skipping check
-Thu Jun 26 09:12:21 2025 [14148][1][FATAL] User update error: Temp User is not retrieved at ID 1, boolean given
-Thu Jun 26 09:12:21 2025 [14148][1][FATAL] Email address save error
-Thu Jun 26 09:12:33 2025 [14148][1][FATAL] User update error: Temp User is not retrieved at ID seed_jim_id, boolean given
-Thu Jun 26 09:12:33 2025 [14148][1][FATAL] Email address save error
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] User update error: Temp User is not retrieved at ID seed_sarah_id, boolean given
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] Email address save error
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] User update error: Temp User is not retrieved at ID seed_sally_id, boolean given
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] Email address save error
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] User update error: Temp User is not retrieved at ID seed_max_id, boolean given
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] Email address save error
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] User update error: Temp User is not retrieved at ID seed_will_id, boolean given
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] Email address save error
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] User update error: Temp User is not retrieved at ID seed_chris_id, boolean given
-Thu Jun 26 09:12:34 2025 [14148][1][FATAL] Email address save error
-Thu Jun 26 09:13:47 2025 [14148][1][SECURITY] Invalid ext  logger_file_ext : ''.
-Thu Jun 26 09:13:47 2025 [14148][1][SECURITY] Setting logger_file_ext to '.log'.
-Thu Jun 26 09:13:47 2025 [14148][1][SECURITY] Setting logger_file_name to ''.
-Thu Jun 26 09:13:47 2025 [14148][1][SECURITY] Log file extension can't be blank.
-Thu Jun 26 09:13:47 2025 [14148][1][SECURITY] Setting logger_file_name to ''.
-Thu Jun 26 09:13:47 2025 [14148][1][SECURITY] Log file extension can't be blank.
+Thu Jun 26 12:07:28 2025 [14148][1][FATAL] Mysqli_query failed.
+Thu Jun 26 12:07:28 2025 [14148][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `demolookupty_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Thu Jun 26 12:13:57 2025 [14148][1][FATAL] Mysqli_query failed.
+Thu Jun 26 12:13:57 2025 [14148][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `hy_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Thu Jun 26 12:28:06 2025 [14148][1][FATAL] Mysqli_query failed.
+Thu Jun 26 12:28:06 2025 [14148][1][FATAL] Cannot set default Query Failed: ALTER TABLE accounts_cstm modify COLUMN `hy_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Thu Jun 26 12:35:53 2025 [33016][1][FATAL] IP Address mismatch: SESSION IP: 127.0.0.1 CLIENT IP: ::1
+Thu Jun 26 12:45:25 2025 [33016][1][FATAL] Mysqli_query failed.
+Thu Jun 26 12:45:25 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `hu_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Thu Jun 26 13:01:56 2025 [33016][1][FATAL] IP Address mismatch: SESSION IP: ::1 CLIENT IP: 127.0.0.1

@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 require_once('include/utils/array_utils.php');
 #[\AllowDynamicProperties]
-class TemplateLookupDropdown extends TemplateText
+class TemplateLookupDropdown extends TemplateEnum
 {
     public $max_size = 100;
     public $len = 100;

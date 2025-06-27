@@ -161,6 +161,7 @@ class MssqlManager extends DBManager
         'encrypt' => 'varchar',
         'file' => 'varchar',
         'decimal_tpl' => 'decimal(%d, %d)',
+        'lookupdropdown' => 'varchar(255)',
     );
 
     protected $connectOptions;

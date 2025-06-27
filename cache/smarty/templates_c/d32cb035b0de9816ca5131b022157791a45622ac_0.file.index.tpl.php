@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-06-26 11:02:18
+/* Smarty version 4.5.3, created on 2025-06-27 09:02:52
   from 'C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\modules\Administration\index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_685d28baafd095_59527673',
+  'unifunc' => 'content_685e5e3ce18a08_83563553',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_685d28baafd095_59527673 (Smarty_Internal_Template $_smarty_tpl) {
+function content_685e5e3ce18a08_83563553 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <div class="dashletPanelMenu wizard">

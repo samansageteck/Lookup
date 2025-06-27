@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-06-26 11:02:43
+/* Smarty version 4.5.3, created on 2025-06-27 09:03:07
   from 'C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\modules\ModuleBuilder\tpls\MBModule\fields.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_685d28d3af2467_37207272',
+  'unifunc' => 'content_685e5e4b9e4a40_42758937',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_685d28d3af2467_37207272 (Smarty_Internal_Template $_smarty_tpl) {
+function content_685e5e4b9e4a40_42758937 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'C:\\wamp64\\www\\NewInstance-26-06-2025\\SuiteCRM-7.14.6\\include\\Smarty\\plugins\\function.sugar_translate.php','function'=>'smarty_function_sugar_translate',),));
 ?>
 

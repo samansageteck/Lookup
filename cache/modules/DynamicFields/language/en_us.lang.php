@@ -1,5 +1,5 @@
 <?php
-// created: 2025-06-26 11:02:52
+// created: 2025-06-27 09:03:10
 $mod_strings = array (
   'LNK_NEW_CALL' => 'Log Call',
   'LNK_NEW_MEETING' => 'Schedule Meeting',
@@ -60,4 +60,8 @@ $mod_strings = array (
   'COLUMN_TITLE_INLINE_EDIT_TEXT' => 'Inline Edit',
   'COLUMN_TITLE_PARENT_ENUM' => 'Parent DropDown',
   'LBL_INSERT_FIELD' => 'Insert Field',
+  'fieldTypes' => 
+  array (
+    'lookupdropdown' => 'Lookup Dropdown',
+  ),
 );
