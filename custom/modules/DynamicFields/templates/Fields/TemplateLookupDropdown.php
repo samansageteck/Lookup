@@ -43,12 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 require_once('include/utils/array_utils.php');
+require_once('modules/DynamicFields/templates/Fields/TemplateEnum.php');
 #[\AllowDynamicProperties]
 class TemplateLookupDropdown extends TemplateEnum
 {
+    // public function __construct()
+    // {
+    //     parent::__construct();
+    //     $this->type = 'lookupdropdown';
+    // }
     public $max_size = 100;
     public $len = 100;
     public $type='enum';
+    public $dbType = 'varchar'; // ✅ tells SuiteCRM what SQL type to use
     public $ext1 = '';
     public $default_value = '';
     public $dependency ; // any dependency information
@@ -144,23 +151,41 @@ class TemplateLookupDropdown extends TemplateEnum
         return $returnXTPL;
     }
 
+    // public function get_field_def()
+    // {
+    //     $def = parent::get_field_def();
+    //     $def['options'] = !empty($this->options) ? $this->options : $this->ext1;
+    //     $def['default'] = !empty($this->default) ? $this->default : $this->default_value;
+    //     $def['len'] = $this->max_size;
+    //     $def['studio'] = 'visible';
+    //     // this class may be extended, so only do the unserialize for genuine TemplateEnums
+    //     if (get_class($this) == 'TemplateEnum' && empty($def['dependency'])) {
+    //         $def['dependency'] = $this->ext4 !== null? unserialize(html_entity_decode((string) $this->ext4)) : null ;
+    //     }
+    //     if (!empty($this->visibility_grid)) {
+    //         $def['visibility_grid'] = $this->visibility_grid;
+    //     }
+
+    //     return $def;
+    // }
     public function get_field_def()
     {
         $def = parent::get_field_def();
+    
         $def['options'] = !empty($this->options) ? $this->options : $this->ext1;
         $def['default'] = !empty($this->default) ? $this->default : $this->default_value;
         $def['len'] = $this->max_size;
         $def['studio'] = 'visible';
-        // this class may be extended, so only do the unserialize for genuine TemplateEnums
-        if (get_class($this) == 'TemplateEnum' && empty($def['dependency'])) {
-            $def['dependency'] = $this->ext4 !== null? unserialize(html_entity_decode((string) $this->ext4)) : null ;
-        }
+    
+        $def['type'] = 'lookupdropdown'; // ✅ this ensures label is preserved
+        $def['dbType'] = 'varchar'; 
         if (!empty($this->visibility_grid)) {
             $def['visibility_grid'] = $this->visibility_grid;
         }
-
+    
         return $def;
     }
+    
 
     public function get_xtpl_detail()
     {

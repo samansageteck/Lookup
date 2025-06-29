@@ -113,6 +113,9 @@ class FieldViewer
             case 'phone:':
                 require_once('modules/DynamicFields/templates/Fields/Forms/phone.php');
                 return get_body($this->ss, $vardef);
+            case 'lookupdropdown':
+                require_once('custom/modules/DynamicFields/templates/Fields/Forms/LookupDropdown.php');
+                return get_body($this->ss, $vardef);
             default:
                 $file = false;
                 if (file_exists('custom/modules/DynamicFields/templates/Fields/Forms/' . $vardef['type'] . '.php')) {

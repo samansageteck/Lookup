@@ -188,6 +188,8 @@ class ViewModulefield extends SugarView
             }
             
             require_once('modules/DynamicFields/FieldCases.php') ;
+           // echo "<pre>Type: " . (isset($vardef['type']) ? $vardef['type'] : 'Not set') . "</pre>";
+
             $tf = get_widget(empty($vardef [ 'type' ]) ?  "" : $vardef [ 'type' ]) ;
             $tf->module = $module;
             $tf->populateFromRow($vardef);

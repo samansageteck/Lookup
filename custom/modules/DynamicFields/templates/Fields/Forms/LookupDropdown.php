@@ -93,13 +93,22 @@
     //  Adding a default empty list
      $dropdowns[] = '';
      sort($dropdowns);
-     $default_dropdowns = array();
+    //  $default_dropdowns = array();
+    $default_dropdowns = [];
      if (!empty($vardef['options']) && !empty($my_list_strings[$vardef['options']])) {
          $default_dropdowns = $my_list_strings[$vardef['options']];
      } else {
          //since we do not have a default value then we should assign the first one.
-         $key = $dropdowns[0];
-         $default_dropdowns = $my_list_strings[$key];
+        //  $key = $dropdowns[0];
+        //  $default_dropdowns = $my_list_strings[$key];
+       
+            foreach ($dropdowns as $key) {
+                if (!empty($key) && isset($my_list_strings[$key])) {
+                    $default_dropdowns = $my_list_strings[$key];
+                    break;
+                }
+}
+
      }
     
      $selected_dropdown = '';

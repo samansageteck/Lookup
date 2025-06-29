@@ -1,10 +1,88 @@
-Thu Jun 26 12:07:28 2025 [14148][1][FATAL] Mysqli_query failed.
-Thu Jun 26 12:07:28 2025 [14148][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `demolookupty_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
-Thu Jun 26 12:13:57 2025 [14148][1][FATAL] Mysqli_query failed.
-Thu Jun 26 12:13:57 2025 [14148][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `hy_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
-Thu Jun 26 12:28:06 2025 [14148][1][FATAL] Mysqli_query failed.
-Thu Jun 26 12:28:06 2025 [14148][1][FATAL] Cannot set default Query Failed: ALTER TABLE accounts_cstm modify COLUMN `hy_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
-Thu Jun 26 12:35:53 2025 [33016][1][FATAL] IP Address mismatch: SESSION IP: 127.0.0.1 CLIENT IP: ::1
-Thu Jun 26 12:45:25 2025 [33016][1][FATAL] Mysqli_query failed.
-Thu Jun 26 12:45:25 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `hu_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
-Thu Jun 26 13:01:56 2025 [33016][1][FATAL] IP Address mismatch: SESSION IP: ::1 CLIENT IP: 127.0.0.1
+Fri Jun 27 09:20:56 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 09:20:56 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `testdropdown3_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 09:20:56 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 09:20:56 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 10:57:55 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 10:57:55 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `lookupfield5_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 10:57:55 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 10:57:55 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 11:01:45 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 11:01:45 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `lookupfield6_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 11:01:49 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 11:01:49 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 11:02:29 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 11:02:29 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `lookupfield7_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 11:02:29 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 11:02:29 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 11:02:49 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 11:02:49 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `lookupfield8_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 11:02:49 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 11:02:49 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 11:03:16 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 11:03:16 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE calls_cstm add COLUMN `rrtt_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 11:03:16 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 11:03:16 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 11:05:14 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 11:05:14 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE cases_cstm add COLUMN `testt_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 11:05:14 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 11:05:14 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 11:33:25 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 11:33:25 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `dropdowndd2_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 11:33:25 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 11:33:25 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 11:33:51 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 11:33:51 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `dropdowndd3_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 12:03:10 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 12:03:10 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `tydd5_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 12:03:10 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 12:03:10 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 12:07:59 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 12:07:59 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `tydd8_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 12:07:59 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 12:07:59 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 19:26:49 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 19:26:49 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try101_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 19:31:10 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 19:31:10 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try101_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 19:31:43 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 19:31:43 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try102_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 19:31:43 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 19:31:43 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 19:39:00 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 19:39:00 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try103_c` LookupDropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LookupDropdown  NULL' at line 1
+Fri Jun 27 19:39:07 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 19:39:07 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 20:13:46 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 20:13:46 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try200_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Fri Jun 27 20:13:46 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 20:13:46 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 20:25:55 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 20:25:55 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try201_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Fri Jun 27 20:25:55 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 20:25:55 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 20:26:11 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 20:26:11 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try202_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Fri Jun 27 20:30:01 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 20:30:01 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try300_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Fri Jun 27 20:30:01 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 20:30:01 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 20:30:46 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 20:30:46 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `try301_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Fri Jun 27 20:34:15 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 20:34:15 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `io_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Fri Jun 27 20:34:15 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Fri Jun 27 20:34:15 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Fri Jun 27 20:37:35 2025 [33016][1][FATAL] Mysqli_query failed.
+Fri Jun 27 20:37:35 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `io12_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Sun Jun 29 09:31:50 2025 [33016][1][FATAL] Mysqli_query failed.
+Sun Jun 29 09:31:50 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `heyfield_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Sun Jun 29 09:31:50 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Sun Jun 29 09:31:50 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Sun Jun 29 09:32:23 2025 [33016][1][FATAL] Mysqli_query failed.
+Sun Jun 29 09:32:23 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `heyfield2_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Sun Jun 29 09:32:23 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Sun Jun 29 09:32:23 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.
+Sun Jun 29 09:32:59 2025 [33016][1][FATAL] Mysqli_query failed.
+Sun Jun 29 09:32:59 2025 [33016][1][FATAL] Cannot create column Query Failed: ALTER TABLE accounts_cstm add COLUMN `ert_c` lookupdropdown  NULL : MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'lookupdropdown  NULL' at line 1
+Sun Jun 29 09:32:59 2025 [33016][1][FATAL] Exception handling in C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\include\MVC\Controller\SugarController.php:397
+Sun Jun 29 09:32:59 2025 [33016][1][FATAL] Exception in Controller: Database failure. Please refer to suitecrm.log for details.

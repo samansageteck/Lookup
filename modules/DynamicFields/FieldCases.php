@@ -68,7 +68,7 @@ require_once('modules/DynamicFields/templates/Fields/TemplateEncrypt.php');
 require_once('modules/DynamicFields/templates/Fields/TemplateId.php');
 require_once('modules/DynamicFields/templates/Fields/TemplateImage.php');
 require_once('modules/DynamicFields/templates/Fields/TemplateDecimal.php');
-// require_once('custom/modules/DynamicFields/templates/Fields/TemplateLookupDropdown.php');
+require_once('custom/modules/DynamicFields/templates/Fields/TemplateLookupDropdown.php');
 function get_widget($type)
 {
     $local_temp = null;
@@ -130,6 +130,7 @@ function get_widget($type)
             case 'image':
                         $local_temp = new TemplateImage(); break;
             case 'lookupdropdown':
+                       // $type = 'enum';
                         $local_temp = new TemplateLookupDropdown();
                         break;
                         
