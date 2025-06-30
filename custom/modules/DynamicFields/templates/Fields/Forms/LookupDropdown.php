@@ -119,8 +119,9 @@
      if (!empty($_REQUEST['refresh_dropdown'])) {
          $show = false;
      }
+     $relatedModules = get_related_modules();
 
-     $ss->assign('dropdowns', $dropdowns);
+     $ss->assign('dropdowns', $relatedModules);
      $ss->assign('default_dropdowns', $default_dropdowns);
      $ss->assign('selected_dropdown', $selected_dropdown);
      $ss->assign('show', $show);
@@ -134,3 +135,60 @@
      $ss->assign('app_list_strings', "''");
      return $ss->fetch('custom/modules/DynamicFields/templates/Fields/Forms/LookupDropdown.tpl');
  }
+ 
+function get_related_modules()
+{
+    $currentModule = get_current_module_name();
+    return fetch_related_modules($currentModule);
+}
+
+function get_current_module_name()
+{
+    return clean_string($_REQUEST['view_module'] ?? 'Unknown');
+}
+
+function fetch_related_modules($currentModule)
+{
+    require_once('data/BeanFactory.php');
+    require_once('include/utils.php');
+
+    $bean = BeanFactory::newBean($currentModule);
+    if (!$bean) {
+        return ["Could not load bean for: $currentModule"];
+    }
+
+    $relatedModules = [];
+
+    foreach ($bean->field_defs as $field => $def) {
+        if (!empty($def['type']) && $def['type'] === 'link') {
+            // Try to load the relationship
+            if ($bean->load_relationship($field)) {
+                $rel = $bean->$field;
+
+                if (!empty($rel) && method_exists($rel, 'getRelatedModuleName')) {
+                    $relatedModule = $rel->getRelatedModuleName();
+                    if (!in_array($relatedModule, $relatedModules)) {
+                        $relatedModules[] = $relatedModule;
+                    }
+                }
+            }
+        }
+    }
+
+    return $relatedModules;
+}
+
+
+function get_package_strings()
+{
+    $package_strings = [];
+    if (!empty($_REQUEST['view_package']) && $_REQUEST['view_package'] != 'studio') {
+        require_once('modules/ModuleBuilder/MB/ModuleBuilder.php');
+        $mb = new ModuleBuilder();
+        $module = $mb->getPackageModule($_REQUEST['view_package'], $_REQUEST['view_module']);
+        $lang = $GLOBALS['current_language'];
+        $module->mblanguage->generateAppStrings(false);
+        $package_strings = $module->mblanguage->appListStrings[$lang . '.lang.php'];
+    }
+    return $package_strings;
+}

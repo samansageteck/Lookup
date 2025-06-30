@@ -47,25 +47,16 @@
  {include file="modules/DynamicFields/templates/Fields/Forms/coreTop.tpl"}
 
 <tr>
-	<td class='mbLBL'>{sugar_translate module="DynamicFields" label="LBL_rELATED_LIST"}:</td>
+	<td class='mbLBL'>{sugar_translate module="DynamicFields" label="LBL_RELATED_MODULES_DROPDOWN"}:</td>
 	<td>
 	{if $hideLevel < 5 && empty($vardef.function)}
-		{html_options name="options" id="options" selected=$selected_dropdown values=$dropdowns output=$dropdowns onChange="ModuleBuilder.dropdownChanged(this.value);"}{if !$uneditable}<br><input type='button' value='{sugar_translate module="DynamicFields" label="LBL_BTN_EDIT"}' class='button' onclick="{literal}if(check_form('popup_form')) { ModuleBuilder.moduleDropDown(this.form.options.value, this.form.options.value); }{/literal}">&nbsp;<input type='button' value='{sugar_translate module="DynamicFields" label="LBL_BTN_ADD"}' class='button' onclick="{literal}if(check_form('popup_form')) { ModuleBuilder.moduleDropDown('', this.form.name.value); }{/literal}">{/if}
+		{html_options name="options" id="options" selected=$selected_dropdown values=$dropdowns output=$dropdowns onChange="ModuleBuilder.dropdownChanged(this.value);"}{if !$uneditable} <div style="display: none;"><br><input type='button' value='{sugar_translate module="DynamicFields" label="LBL_BTN_EDIT"}' class='button' onclick="{literal}if(check_form('popup_form')) { ModuleBuilder.moduleDropDown(this.form.options.value, this.form.options.value); }{/literal}">&nbsp;<input type='button' value='{sugar_translate module="DynamicFields" label="LBL_BTN_ADD"}' class='button' onclick="{literal}if(check_form('popup_form')) { ModuleBuilder.moduleDropDown('', this.form.name.value); }{/literal}"></div>{/if}
 	{else}
 		<input type='hidden' name='options' value='{$selected_dropdown}'>{$selected_dropdown}
 	{/if}
 	</td>
 </tr>
-<tr>
-	<td class='mbLBL'>{sugar_translate module="DynamicFields" label="COLUMN_TITLE_DEFAULT_VALUE"}:</td>
-	<td>
-	{if $hideLevel < 5 && empty($vardef.function)}
-		{html_options name="default[]" id="default[]" selected=$selected_options options=$default_dropdowns multiple=$multi}
-	{else}
-		<input type='hidden' name='default[]' id='default[]' value='$vardef.default'>{$vardef.default}
-	{/if}
-	</td>
-</tr>
+
 <tr>
 	<td class='mbLBL' >{sugar_translate module="DynamicFields" label="COLUMN_TITLE_MASS_UPDATE"}:</td>
 	<td>

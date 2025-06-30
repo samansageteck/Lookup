@@ -1,5 +1,5 @@
 <?php
-// created: 2025-06-29 09:58:06
+// created: 2025-06-29 11:55:16
 $mod_strings = array (
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Date Created:',
@@ -139,4 +139,7 @@ $mod_strings = array (
   'LBL_TEXTFIELDLOOKUP' => 'textfieldlookup',
   'LBL_TY3' => 'ty3',
   'LBL_TY5' => 'ty5',
+  'LBL_TEST2' => 'test2',
+  'LBL_TEST6' => 'test6',
+  'LBL_LOOKUPCALLS_ACOOUNTS' => 'lookupcalls acoounts',
 );

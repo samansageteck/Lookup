@@ -177,7 +177,7 @@ class TemplateLookupDropdown extends TemplateEnum
         $def['len'] = $this->max_size;
         $def['studio'] = 'visible';
     
-        $def['type'] = 'lookupdropdown'; // ✅ this ensures label is preserved
+        $def['type'] = 'lookupdropdown'; 
         $def['dbType'] = 'varchar'; 
         if (!empty($this->visibility_grid)) {
             $def['visibility_grid'] = $this->visibility_grid;

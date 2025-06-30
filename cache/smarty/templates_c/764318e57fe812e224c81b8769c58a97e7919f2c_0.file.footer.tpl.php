@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.5.3, created on 2025-06-29 09:52:38
+/* Smarty version 4.5.3, created on 2025-06-29 11:52:12
   from 'C:\wamp64\www\NewInstance-26-06-2025\SuiteCRM-7.14.6\themes\SuiteP\tpls\footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.5.3',
-  'unifunc' => 'content_68610ce6568a61_10592665',
+  'unifunc' => 'content_686128ecedd559_73348825',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_68610ce6568a61_10592665 (Smarty_Internal_Template $_smarty_tpl) {
+function content_686128ecedd559_73348825 (Smarty_Internal_Template $_smarty_tpl) {
 ?></div>
 </div>
 <!-- END of container-fluid, pageContainer divs -->
